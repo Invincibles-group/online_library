@@ -1,0 +1,269 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* 
+{
+margin: 0px;
+padding: 0px;
+}
+
+body {
+	background: #AAE0FE url(images/back_all.gif) repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #A4E4F5;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+input, textarea {
+	background: #A4E4F5;
+	border: 1px solid #FFFFFF;
+	font: bold 13px Arial, Helvetica, sans-serif;
+	color: #0F5B96;
+}
+
+h1, h2, h3, p, ol, ul {
+	margin-top: 0;
+}ae
+
+h1, h2, h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-family: uppercase;
+}
+
+h1, h2 {
+	text-transform: upperc;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.4em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+p, ol, ul {
+	margin-bottom: 1.5em;
+	line-height: 150%;
+}
+
+a {
+	color: #1D74A6;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #1D74A6;
+}
+
+
+
+hr {
+	display: none;
+}
+
+#main
+{
+width: 904px;
+margin: 0 auto;
+border: 10px solid #ffffff;
+}
+
+/* Header */
+
+#header {
+	height: 424px;
+	width: 904px;
+}
+
+#logo {
+width: 904px;
+height: 375px;
+background: url(images/library7.jpg) repeat-x;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	line-height: normal;
+}
+
+#logo h1 {
+	padding: 47px 0 0 20px;
+	font-size: 24px;
+	color: #62D6F5;
+}
+#logo h2 {
+	padding: 10px 0 0 20px;
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #62D6F5;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #62D6F5;
+}
+
+#menu {
+height: 49px;
+padding-left: 140px;
+background: url(images/menu.gif) no-repeat;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	float: left;
+	width: 120px;
+	height: 35px;
+	margin: 0 0 0 2px;
+	padding: 14px 0 0 0;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: -1px;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #000000;
+}
+
+#menu a:hover {
+	background: url(images/menu_r.gif) repeat-x;
+}
+
+/* Page */
+
+#page {
+	width: 904px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 452px;
+	margin-left: 10px;
+}
+
+#content .post ul, #content .post ol
+{
+margin-left: 30px;
+}
+
+.post {
+	margin-bottom: 15px;
+	background: #AAE0FE;
+	padding: 10px;
+	color: #0A416B;
+}
+
+.post a {
+	color: #1D74A6;
+}
+
+.post a:hover {
+	color: #FFFFFF;
+}
+
+
+/* Sidebars */
+
+.sidebar {
+	float: left;
+	width: 216px;
+	margin-top: 10px;
+	color: #0D699B
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+
+.sidebar li {
+	padding: 6px 0 6px 20px;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: #0D699B;
+	font-size: 11px;
+}
+.sidebar a:hover {
+	color: #0D699B;
+	text-decoration: underline;
+}
+
+.sidebar h2 {
+	padding-top: 10px;
+	color: #FFFFFF;
+	background: url(images/title.gif) no-repeat;
+	height: 34px;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+
+/* Left Sidebar */
+
+#leftbar {
+}
+
+/* Right Sidebar */
+
+#rightbar {
+margin-left: 10px;
+}
+
+#leftbar .back, #rightbar .back
+{
+background: url(images/box_back.gif) repeat-y;
+padding: 10px;
+}
+
+#leftbar .bottom, #rightbar .bottom
+{
+background: url(images/box_bottom.gif) no-repeat;
+height: 3px;
+width: 216px;
+margin-bottom: 10px;
+}
+
+
+
+
+
+/* Footer */
+
+#footer {
+	clear: both;
+	padding-top: 20px;
+	height: 62px;
+	background: url(images/footer.gif) repeat-x;
+}
+
+#footer p {
+	text-align: center;
+	font-size: smaller;
+	color: #0F5B96;
+}
+
+#footer a {
+	color: #0F5B96;
+}
